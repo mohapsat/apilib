@@ -25,7 +25,7 @@ def gen_tx_qrcode(inputText):
 
     album = None
     image_path = 'qrcode.png'
-    clientId = 'F5a0da0ee22b6b9'
+    clientId = 'xxxxxxxx' # Please get your own ClientId from imgur
 
     url = "https://api.imgur.com/3/image"
     payload = {'image': open(image_path, 'rb').read(), 'type': 'file'}
