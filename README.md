@@ -7,5 +7,5 @@
 - ping test
 - password generator
 - promo code generator
-- TBD
+- QR Code generator
 - TBD...
